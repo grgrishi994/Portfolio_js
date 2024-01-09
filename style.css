@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#minicircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+.bounding h1,
+h5 {
+  transform: translateY(100%);
+}
+
+#main {
+  width: 100%;
+  background-color: black;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#heading {
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+#heading h1 {
+  opacity: 0.6;
+  line-height: 1;
+  margin-left: 30px;
+  font-size: 10vw;
+}
+
+#heading #secondh1 {
+  margin-left: 160px;
+}
+
+.blockText {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.blockText h5 {
+  font-size: 17px;
+  text-align: right;
+}
+
+#innerHeadings {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 50px;
+}
+
+#innerHeadings h5 {
+  color: #fff;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+}
+
+#footer {
+  margin-top: 20px;
+  padding: 0 3vw;
+  width: 100%;
+  position: abs;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#iconset {
+  display: flex;
+  gap: 5px;
+  margin-right: 20px;
+}
+
+#footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888;
+}
+
+#second {
+  background-color: black;
+  padding-top: 200px;
+  padding-right: 10vw;
+  width: 100%;
+  height: 200vh;
+  color: #fff;
+}
+
+.elem {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  padding-right: 0;
+  border-top: 1px solid #888;
+}
+
+.elem h1 {
+  text-transform: uppercase;
+  font-size: 7.5vw;
+  opacity: 0.7;
+}
+
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+.elem img {
+  z-index: 999;
+  position: absolute;
+  height: 140%;
+  opacity: 0;
+  display: none;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: #fff;
+  width: 100%;
+  padding: 0vw 1vw;
+  padding-left: 40vw;
+  background-color: black;
+}
+
+#textabout {
+  width: 25rem;
+}
+
+#textabout h5 {
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+
+#textabout p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+#textabout a {
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#about img {
+  width: 200px;
+}
+
+#subscribe {
+  background-color: black;
+  color: #fff;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+}
+
+#subcribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+
+#footer {
+  position: relative;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+#footerleft {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+#footerright {
+  display: flex;
+  gap: 20px;
+}
+#footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
