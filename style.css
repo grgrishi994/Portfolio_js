@@ -166,7 +166,7 @@ h5 {
   position: absolute;
   height: 140%;
   opacity: 0;
-  display: none;
+  /* display: none; */
 }
 
 #about {
@@ -178,6 +178,9 @@ h5 {
   padding: 0vw 1vw;
   padding-left: 40vw;
   background-color: black;
+}
+#about img{
+     border-radius: 50%;
 }
 
 #textabout {
